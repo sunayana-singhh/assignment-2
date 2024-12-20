@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #4f46e5;
+    --primary-hover: #4338ca;
+    --background-start: #6366f1;
+    --background-end: #8b5cf6;
+    --text-primary: #1f2937;
+    --text-secondary: #4b5563;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #ffffff;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--background-start) 0%, var(--background-end) 100%);
+  }
